@@ -35,12 +35,13 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .Projects, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
+.Projects .Projects-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -165,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpeg") no-repeat center;
+    background: url("Images/banner.jpeg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -362,20 +363,20 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
+.skills-content .right .Python::before{
     width: 90%;
 }
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
+.skills-content .right .Java::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
-    width: 70%;
+.skills-content .right .HTML::before{
+    width: 80%;
+}
+.skills-content .right .CSS::before{
+    width: 60%;
+}
+.skills-content .right .JavaScript::before{
+    width: 60%;
 }
 
 /* contact section styling */
